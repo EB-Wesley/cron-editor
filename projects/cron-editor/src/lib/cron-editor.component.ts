@@ -67,13 +67,13 @@ export class CronEditorComponent implements OnInit, OnChanges {
 
   public monthDayDisplay(month: string): string {
     if (month === 'L') {
-      return 'Last Day';
+      return 'Laatste dag';
     } else if (month === 'LW') {
-      return 'Last Weekday';
+      return 'Laatste weekdag';
     } else if (month === '1W') {
-      return 'First Weekday';
+      return 'Eerste weekdag';
     } else {
-      return `${month}${this.getOrdinalSuffix(month)} day`;
+      return `${month}e dag`;
     }
   }
 
@@ -504,27 +504,6 @@ export class CronEditorComponent implements OnInit, OnChanges {
         errorMessage: ''
       }
     };
-  }
-
-  private getOrdinalSuffix(value: string) {
-    if (value.length > 1) {
-      const secondToLastDigit = value.charAt(value.length - 2);
-      if (secondToLastDigit === '1') {
-        return 'th';
-      }
-    }
-
-    const lastDigit = value.charAt(value.length - 1);
-    switch (lastDigit) {
-      case '1':
-        return 'st';
-      case '2':
-        return 'nd';
-      case '3':
-        return 'rd';
-      default:
-        return 'th';
-    }
   }
 
   private getSelectOptions() {

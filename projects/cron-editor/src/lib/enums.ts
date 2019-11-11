@@ -1,33 +1,33 @@
 export const Days = {
-    'SUN': 'Sunday',
-    'MON': 'Monday',
-    'TUE': 'Tuesday',
-    'WED': 'Wednesday',
-    'THU': 'Thursday',
-    'FRI': 'Friday',
-    'SAT': 'Saturday'
+    'SUN': 'Zondag',
+    'MON': 'Maandag',
+    'TUE': 'Dinsdag',
+    'WED': 'Woensdag',
+    'THU': 'Donderdag',
+    'FRI': 'Vrijdag',
+    'SAT': 'Zaterdag'
 };
 
 export const MonthWeeks = {
-    '#1': 'First',
-    '#2': 'Second',
-    '#3': 'Third',
-    '#4': 'Fourth',
-    '#5': 'Fifth',
-    'L': 'Last'
+    '#1': 'Eerste',
+    '#2': 'Tweede',
+    '#3': 'Derde',
+    '#4': 'Vierde',
+    '#5': 'Vijfde',
+    'L': 'Laatste'
 };
 
 export enum Months {
-    January = 1,
-    February,
-    March,
+    Januari = 1,
+    Februari,
+    Maart,
     April,
-    May,
-    June,
-    July,
-    August,
+    Mei,
+    Juni,
+    Juli,
+    Augustus,
     September,
-    October,
+    Oktober,
     November,
     December
 }
