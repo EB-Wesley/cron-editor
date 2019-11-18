@@ -1,3 +1,5 @@
+# 🚧 Fork of [cron-editor](https://www.npmjs.com/package/cron-editor) with slight modifications 🚧 
+
 cron-editor
 ===
 
